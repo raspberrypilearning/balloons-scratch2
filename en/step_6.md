@@ -14,6 +14,8 @@ To keep the player's score, you need a place to put it. Create a new `variable`{
 
 When a new game is started (by clicking the flag), you should set the player's score to 0. Add this code to the top of the balloon's `when flag clicked`{:class="blockevents"} code:
 
+![balloon sprite](images/balloon-sprite.png)
+
 ```blocks
 when flag clicked
 + set [score v] to [0]
@@ -26,6 +28,8 @@ switch costume to [balloon1-a v]
 --- task ---
 
 Whenever a balloon is popped, you need to add 1 to the score:
+
+![balloon sprite](images/balloon-sprite.png)
 
 ```blocks
 when this sprite clicked

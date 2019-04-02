@@ -12,6 +12,8 @@ Click the flag a few times to start your program, and you'll see it's the same e
 
 Instead of using the same x and y position each time, you can let Scratch choose a random number instead. Change your balloon's code, so that it looks like this:
 
+![balloon sprite](images/balloon-sprite.png)
+
 ```blocks
 	when flag clicked
 	go to x:(pick random (-150) to (150)) y:(pick random (-150) to (150))
@@ -29,6 +31,8 @@ If you click the green flag a few times, you should notice that your balloon sta
 --- task ---
 
 You could even use a random number to choose a random balloon colour each time:
+
+![balloon sprite](images/balloon-sprite.png)
 
 ```blocks
 	change [colour v] effect by (pick random (0) to (200))

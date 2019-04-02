@@ -18,6 +18,8 @@ This is how the timer should work:
 
 Here's the code to do this, which you can add to your _stage_:
 
+![stage sprite](images/stage-sprite.png)
+
 ```blocks
 when flag clicked
 set [time v] to [10]
@@ -34,7 +36,7 @@ stop [all v]
 
 Drag your 'time' variable display to the right side of the stage. You can also right-click on the variable display and choose 'large readout' to change how the time is displayed.
 
-	![screenshot](images/balloons-readout.png)
+![screenshot](images/balloons-readout.png)
 
 --- /task ---
 

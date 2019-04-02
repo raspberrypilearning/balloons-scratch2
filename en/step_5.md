@@ -14,6 +14,8 @@ Click on your balloon sprite, and then click the **Costumes** tab. You can delet
 
 Make sure that your balloon switches to the right costume when the game starts. Your code should now look like this:
 
+![balloon sprite](images/balloon-sprite.png)
+
 ```blocks
 when flag clicked
 +switch costume to [balloon1-a v]
@@ -32,6 +34,8 @@ end
 
 To allow the player to burst a balloon, add this code:
 
+![balloon sprite](images/balloon-sprite.png)
+
 ```blocks
 	when this sprite clicked
 	switch costume to [burst v]
@@ -48,6 +52,8 @@ You'll need to improve this code, so that when the balloon is clicked, it shows 
 
 You can make all of this happen by changing your balloon `when sprite clicked`{:class="blockevents"} code to this:
 
+![balloon sprite](images/balloon-sprite.png)
+
 ```blocks
 when this sprite clicked
 switch costume to [burst v]
@@ -62,7 +68,8 @@ play sound [pop v]
 
 Now that you're deleting the balloon when it's clicked, you'll also need to add a `show`{:class="blocklooks"} block to the start of the `when flag clicked`{:class="blockevents"} code.
 
-```blocks
+![balloon sprite](images/balloon-sprite.png)
+
 ```blocks
 when flag clicked
 + show

@@ -27,6 +27,8 @@ Add in a new balloon sprite, and a suitable stage backdrop.
 
 Add this code to your balloon, so that it bounces around the screen:
 
+![balloon sprite](images/balloon-sprite.png)
+
 ```blocks
 	when flag clicked
 	go to x:(0) y:(0)
