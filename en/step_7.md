@@ -8,7 +8,7 @@ A much better way of getting lots of balloons is to _clone_ the balloon sprite.
 
 --- task ---
 
-Drag your balloon `when flag clicked`{:class="blockevents"} code to a new `when I start as a clone`{:class="blockevents"} event block.
+Drag your balloon `when flag clicked`{:class="blockevents"} code to a new `when I start as a clone`{:class="blockcontrol"} control block.
 
 ![balloon sprite](images/balloon-sprite.png)
 
@@ -42,8 +42,6 @@ end
 --- task ---
 
 Add code to create 20 balloon clones to the `when flag clicked`{:class="blockevents"} code.
-
-![balloon sprite](images/balloon-sprite.png)
 
 ![balloon sprite](images/balloon-sprite.png)
 
