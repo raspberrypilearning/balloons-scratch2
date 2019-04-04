@@ -1,6 +1,6 @@
-# balloons-scratch2
+# balloons
 
-![balloons-scratch2](banner.png)
+![balloons](en/images/banner.png)
 
 Find the project online at [projects.raspberrypi.org/en/projects/balloons-scratch2](https://projects.raspberrypi.org/en/projects/balloons-scratch2)
 
